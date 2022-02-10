@@ -158,7 +158,7 @@ def event_handle(event):
         elif msg == "ไปเที่ยวกันไหม" :
             replyObj = TextSendMessage(text="ไปดิ")
             line_bot_api.reply_message(rtoken, replyObj)
-             elif msg == "เมนูอาหาร" :
+        elif msg == "เมนูอาหาร" :
             replyObj = TextSendMessage(text="ข้าวต้ม30บาท ราดหน้า40บาท ผัดมาม่า35บาท ข้าวผัด40บาท คะน้าหมูกรอบ40บาท")
             line_bot_api.reply_message(rtoken, replyObj)
         else :
