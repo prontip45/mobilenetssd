@@ -159,16 +159,7 @@ def event_handle(event):
             replyObj = TextSendMessage(text="ไปดิ")
             line_bot_api.reply_message(rtoken, replyObj)
         elif msg == "เมนูอาหาร" :
-            replyObj = TextSendMessage(text="ข้าวต้ม            30
-                                             ราดหน้า           40
-                                             ผัดมาม่า           30
-                                             ข้าวผัด            40
-                                             คะน้าหมูกรอบ       40
-                                             ผัดซีอิ๊วหมู          40
-                                             สุกี้ทะเล            45
-                                             ไข่เจียวปู           45
-                                             ต้มยำกุ้ง            40
-                                             ผัดวุ้นเส้น           30")
+            replyObj = TextSendMessage(text="ข้าวต้ม 30 ราดหน้า 40 ผัดมาม่า 35 ข้าวผัด 40 คะน้าหมูกรอบ 40 ผัดซีอิ๊วหมู 40 สุกี้ทะเล 45 ไข่เจียวปู 45 ต้มยำกุ้ง 40 ผัดวุ้นเส้น 30")
             line_bot_api.reply_message(rtoken, replyObj)
         else :
             headers = request.headers
